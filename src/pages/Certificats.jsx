@@ -15,7 +15,7 @@ const Certificats = () => {
           </h1>
         </div>
         <div className="w-full h-full">
-          <div className="grid grid-cols-5 gap-[20px] xs:grid-cols-1">
+          <div className="grid lg:grid-cols-5 gap-[20px] xs:grid-cols-1 md:grid-cols-2">
             {zertificate.map((zert) => (
               <div className="border-sec border-2 w-full h-full">
                 {" "}

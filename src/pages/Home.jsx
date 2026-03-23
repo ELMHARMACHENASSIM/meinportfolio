@@ -19,30 +19,29 @@ const Home = () => {
       <div className="Mycontainer pt-[120px] ">
         <div className="w-full h-screen flex justify-center items-center flex-col gap-10">
           <div className="flex justify-between items-center xs:flex-col xs:gap-[10px]">
-            <div className="font-lett text-[50px] xs:text-[3²0px]">
+            <div className="font-lett md:text-[50px] xs:text-[40px]">
               <h1>01</h1>
             </div>
             <div className="flex justify-center flex-col gap-10 items-center">
-              <h1 className="text-[150px] w-[80%] font-lett text-sec text-center leading-35 xs:leading-15 xs:w-[100%] xs:text-[50px]">
+              <h1 className="lg:text-[150px] lg:w-[80%] md:w-[100%] md:text-[100px]  font-lett text-sec text-center md:leading-25 lg:leading-35 xs:leading-15 xs:w-[100%] xs:text-[50px]">
                 Willkommen auf meinem Portfolio
               </h1>
-              <div className="flex gap-5 xs:flex-col">
-                <Link className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center gap-[10px] rounded-full">
+              <div className="flex gap-5 xs:flex-col md:flex-row">
+                <Link className="border-black border lg:py-[10px] md:py-[5px] px-[25px] text-[20px] font-r flex items-center gap-[10px] rounded-full">
                   {" "}
                   <span>
                     <FontAwesomeIcon icon={faDownload} />
                   </span>{" "}
                   Lebenslauf herunterladen
                 </Link>
-                <Link className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center gap-[10px] rounded-full">
+                <Link className="border-black border lg:py-[10px] md:py-[5px] px-[25px] text-[20px] font-r flex items-center gap-[10px] rounded-full">
                   {" "}
                   <span>
                     <FontAwesomeIcon icon={faDownload} />
                   </span>{" "}
                   Motivationsschreiben herunterladen
                 </Link>
-                <Link
-                  className="border-black border- py-[10px] px-[25px] bg-sec text-body font-r text-[20px] flex items-center gap-[10px] rounded-full"
+                <Link className="py-[10px] md:py-[5px] px-[25px] bg-sec text-body font-r text-[20px] flex items-center gap-[10px] rounded-full"
                   to={"/about"}
                 >
                   Start{" "}
@@ -64,7 +63,6 @@ const Home = () => {
                   </Link>
                 </li>
                 <li>
-                 
                   <Link
                     to={"https://www.instagram.com/elmharmachenassim/"}
                     target="_blank"
@@ -74,17 +72,15 @@ const Home = () => {
                   </Link>
                 </li>
                 <li>
-                
                   <Link
                     to={"https://www.linkedin.com/in/nassim-elmharmache/"}
                     target="_blank"
                   >
                     {" "}
-                     <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faLinkedin} />
                   </Link>
                 </li>
                 <li>
-                  
                   <Link
                     to={"https://web.facebook.com/elmharmachenassim/"}
                     target="_blank"
@@ -94,33 +90,24 @@ const Home = () => {
                   </Link>
                 </li>
                 <li>
-              
                   <Link
                     to={"https://www.threads.com/@elmharmachenassim"}
                     target="_blank"
                   >
                     {" "}
-                        <FontAwesomeIcon icon={faThreads} />
+                    <FontAwesomeIcon icon={faThreads} />
                   </Link>
                 </li>
                 <li>
-                 
-                  <Link
-                    to={"https://wa.link/p8hcg2"}
-                    target="_blank"
-                  >
+                  <Link to={"https://wa.link/p8hcg2"} target="_blank">
                     {" "}
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </Link>
                 </li>
                 <li>
-                 
-                  <Link
-                    to={"https://discord.gg/e9hxHP9a"}
-                    target="_blank"
-                  >
+                  <Link to={"https://discord.gg/e9hxHP9a"} target="_blank">
                     {" "}
-                     <FontAwesomeIcon icon={faDiscord} />
+                    <FontAwesomeIcon icon={faDiscord} />
                   </Link>
                 </li>
               </ul>

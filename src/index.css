@@ -31,10 +31,8 @@
   --color-body: #ece2d0;
   --color-sec: #19183B;
   --breakpoint-xs: 320px; /* Extra small phones */
-  --breakpoint-sm: 480px; /* Small phones */
   --breakpoint-md: 768px; /* Tablets */
   --breakpoint-lg: 976px; /* Small laptops */
-  --breakpoint-xl: 1200px;
 }
 @layer components {
   /* frontend */

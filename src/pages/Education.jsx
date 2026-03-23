@@ -14,7 +14,7 @@ const Education = () => {
           </h1>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="grid grid-cols-2 gap-5 xs:grid-cols-1">
+          <div className="grid lg:grid-cols-2 gap-5 xs:grid-cols-1 ">
             {ausbild.map((ausb) => ( 
             <div className=" w-full h-full flex" key={ausb.id}>
               <div className="w-[30%] bg-sec text-body font-r text-[20px] border-sec border-2 flex justify-center items-center flex-col">
