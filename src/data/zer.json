@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "title": "Grundlagen der häuslichen Pflege",
+    "src_file": "/docs/zer1.pdf",
+    "image_src": "/zert/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Pflegen nach Schlaganfall",
+    "src_file": "/docs/zer2.pdf",
+    "image_src": "/zert/2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Sicherheit im Pflegealltag",
+    "src_file": "/docs/zer3.pdf",
+    "image_src": "/zert/3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Wohnen und Pflege im Alter",
+    "src_file": "/docs/zer4.pdf",
+    "image_src": "/zert/4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Compliance im digitalen Zeitalter",
+    "src_file": "/docs/zer5.pdf",
+    "image_src": "/zert/5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Die Welt des Roten Kreuzes und des Roten Halbmonds (WORC)",
+    "src_file": "/docs/zer6.pdf",
+    "image_src": "/zert/6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Pflege und Beruf: Organisation und Unterstützung",
+    "src_file": "/docs/zer7.pdf",
+    "image_src": "/zert/7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Schlaganfall: Prävention und Bewältigung",
+    "src_file": "/docs/zer8.pdf",
+    "image_src": "/zert/8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Demenz: Ein Leitfaden für Betroffene und ihre Liebsten",
+    "src_file": "/docs/zer9.pdf",
+    "image_src": "/zert/9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Häusliche Pflege: Grundlagen und Konzepte",
+    "src_file": "/docs/zer10.pdf",
+    "image_src": "/zert/10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Hygienemaßnahmen in der häuslichen Pflege",
+    "src_file": "/docs/zer11.pdf",
+    "image_src": "/zert/11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Diabetes: Grundlagen, Vorsorge und Wichtiges in der Pflege",
+    "src_file": "/docs/zer12.pdf",
+    "image_src": "/zert/12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Inkontinenz: Praktische Tipps und Hilfsmittel",
+    "src_file": "/docs/zer13.pdf",
+    "image_src":"/zert/13.jpg"
+  }
+  
+]

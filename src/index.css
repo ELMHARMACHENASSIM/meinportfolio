@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "akira";
+  src: url("./assets/fonts/Akira.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "imp";
+  src: url("./assets/fonts/Imp.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lett";
+  src: url("./assets/fonts/Lett.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  --font-Poppins: "Poppins", sans-serif;
+  --font-akira: "akira", sans-serif;
+  --font-imp: "imp", sans-serif;
+  --font-lett: "lett", sans-serif;
+  --font-weight-n: 400;
+  --font-weight-r: 500;
+  --font-weight-b: 700;
+  --font-weight-bl: 900;
+  --color-body: #ece2d0;
+  --color-sec: #19183B;
+  --breakpoint-xs: 320px; /* Extra small phones */
+  --breakpoint-sm: 480px; /* Small phones */
+  --breakpoint-md: 768px; /* Tablets */
+  --breakpoint-lg: 976px; /* Small laptops */
+  --breakpoint-xl: 1200px;
+}
+@layer components {
+  /* frontend */
+  .Mycontainer {
+    @apply w-[85%] ps-5 pe-5 ms-auto me-auto;
+    @apply xs:w-[95%] xs:ps-[10px] xs:pe-[10px]; /* small screens */
+    @apply md:w-[90%] md:ps-[20px] md:pe-[20px]; /* medium screens */
+    @apply lg:w-[90%] lg:ps-[20px] lg:pe-[20px]; /* large screens */
+    @apply xl:w-[85%] xl:ps-[20px] xl:pe-[20px];
+  }
+}
+html{
+  scroll-behavior: smooth;
+}

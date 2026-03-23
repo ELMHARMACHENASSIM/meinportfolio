@@ -1,0 +1,51 @@
+[
+    {
+      "id": 7,
+      "period": "2025-2026",
+      "duration": "1 Jahr",
+      "title": "Deutschkurs & Erste Hilfe",
+      "desc": "Intensivsprachkurs und Erste-Hilfe-Training beim Roten Halbmond."
+    },
+    {
+      "id": 6,
+      "period": "2024-2025",
+      "duration": "1 Jahr",
+      "title": "Auszeit",
+      "desc": "Keine berufliche Tätigkeit."
+    },
+    {
+      "id": 5,
+      "period": "2023-2024",
+      "duration": "9 Monate",
+      "title": "Web-Entwicklung & Design",
+      "desc": "Web-Entwicklungs-Kurs und Arbeit als Freelance Grafikdesigner."
+    },
+    {
+      "id": 4,
+      "period": "2021-2022",
+      "duration": "2 Jahre",
+      "title": "Verkauf & Gastronomie",
+      "desc": "Tätigkeit im Mobiltelefongeschäft und im Fast-Food-Bereich."
+    },
+    {
+      "id": 3,
+      "period": "2018-2020",
+      "duration": "2 Jahre",
+      "title": "Multimedia-Entwicklung",
+      "desc": "Diplomstudium mit Fokus auf Design und Programmierung."
+    },
+    {
+      "id": 2,
+      "period": "2017-2018",
+      "duration": "1 Jahr",
+      "title": "Kfz-Mechanik",
+      "desc": "Ausbildung im Bereich Automobiltechnik."
+    },
+    {
+      "id": 1,
+      "period": "2016-2017",
+      "duration": "1 Jahr",
+      "title": "Abitur (Physik)",
+      "desc": "Schulabschluss mit Schwerpunkt physikalische Wissenschaften."
+    }
+  ]
