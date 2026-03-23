@@ -19,7 +19,7 @@ const Home = () => {
       <div className="Mycontainer pt-[120px] ">
         <div className="w-full h-screen flex justify-center items-center flex-col gap-10">
           <div className="flex justify-between items-center xs:flex-col xs:gap-[10px]">
-            <div className="font-lett text-[50px] xs:text-[30px]">
+            <div className="font-lett text-[50px] xs:text-[3²0px]">
               <h1>01</h1>
             </div>
             <div className="flex justify-center flex-col gap-10 items-center">
