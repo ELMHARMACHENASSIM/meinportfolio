@@ -14,7 +14,7 @@ const Education = () => {
           </h1>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-2 gap-5 xs:grid-cols-1">
             {ausbild.map((ausb) => ( 
             <div className=" w-full h-full flex" key={ausb.id}>
               <div className="w-[30%] bg-sec text-body font-r text-[20px] border-sec border-2 flex justify-center items-center flex-col">
@@ -30,9 +30,9 @@ const Education = () => {
           </div>
         </div>
         {/* btn */}
-        <div className="w-full flex gap-5 justify-between py-[30px]">
+        <div className="w-full flex gap-5 justify-between py-[30px] md:flex-row xs:flex-col ">
           <Link
-            className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center gap-[10px] rounded-full"
+            className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center justify-center  gap-[10px] rounded-full"
             to={"/about"}
           >
             {" "}
@@ -42,7 +42,7 @@ const Education = () => {
             zurück
           </Link>{" "}
           <Link
-            className="border-black border- py-[10px] px-[25px] bg-sec text-body font-r text-[20px] flex items-center gap-[10px] rounded-full"
+            className="border-black border- py-[10px] px-[25px] bg-sec text-body font-r text-[20px] flex items-center justify-center gap-[10px] rounded-full"
             to={"/certificats"}
           >
             nächsten Seite

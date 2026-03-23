@@ -14,8 +14,8 @@ const About = () => {
         <div className="w-full h-full flex justify-center items-center flex-col gap-10">
           <div className="flex justify-between items-center">
             <div className="flex justify-center flex-col gap-10 items-center">
-              <div className="flex justify-between items-center">
-                <div className="w-[60%]">
+              <div className="flex justify-between items-center xs:flex-col-reverse gap-10">
+                <div className="w-[60%] xs:w-full">
                   {" "}
                   <p className="text-[25px]">
                     Ich heiße Nassim Elmharmache. Ich bin 28 Jahre alt. Ich
@@ -29,7 +29,7 @@ const About = () => {
                   </p>
                 </div>
 
-                <div className="w-[500px]">
+                <div className="w-[500px] xs:w-full">
                   <img
                     src={img}
                     alt=""
@@ -41,9 +41,9 @@ const About = () => {
           </div>
         </div>
         {/* btn */}
-        <div className="w-full flex gap-5 justify-between py-[30px]">
+        <div className="w-full flex gap-5 justify-between py-[30px] md:flex-row xs:flex-col ">
           <Link
-            className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center gap-[10px] rounded-full"
+            className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center justify-center gap-[10px] rounded-full "
             to={"/"}
           >
             {" "}
@@ -53,7 +53,7 @@ const About = () => {
             zurück
           </Link>{" "}
           <Link
-            className="border-black border- py-[10px] px-[25px] bg-sec text-body font-r text-[20px] flex items-center gap-[10px] rounded-full"
+            className="border-black border- py-[10px] px-[25px] bg-sec text-body font-r text-[20px] flex items-center justify-center gap-[10px] rounded-full "
             to={"/education"}
           >
             nächsten Seite

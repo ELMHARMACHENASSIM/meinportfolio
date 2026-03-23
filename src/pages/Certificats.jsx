@@ -15,7 +15,7 @@ const Certificats = () => {
           </h1>
         </div>
         <div className="w-full h-full">
-          <div className="grid grid-cols-5 gap-[20px]">
+          <div className="grid grid-cols-5 gap-[20px] xs:grid-cols-1">
             {zertificate.map((zert) => (
               <div className="border-sec border-2 w-full h-full">
                 {" "}
@@ -48,7 +48,7 @@ const Certificats = () => {
        {/* btn */}
               <div className="w-full flex gap-5 justify-between py-[30px]">
                 <Link
-                  className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center gap-[10px] rounded-full"
+                  className="border-black border py-[10px] px-[25px] text-[20px] font-r flex items-center justify-center gap-[10px] rounded-full"
                   to={"/education"}
                 >
                   {" "}
