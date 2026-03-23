@@ -18,7 +18,7 @@ const Education = () => {
             {ausbild.map((ausb) => ( 
             <div className=" w-full h-full flex" key={ausb.id}>
               <div className="w-[30%] bg-sec text-body font-r text-[20px] border-sec border-2 flex justify-center items-center flex-col">
-                <h1 className=" text-center"> {ausb.period}</h1>
+                <h1 className="text-center"> {ausb.period}</h1>
                 <h2 className="font-n text-center">{ausb.duration}</h2>
               </div>
               <div className="bg-body w-[70%] flex justify-between  border-sec border-2 p-5 flex-col gap-2">
